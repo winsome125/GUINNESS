@@ -1,0 +1,543 @@
+@charset "utf-8";
+
+
+   /*초기화 서식*/
+   *{margin:0px;padding:0px;}
+   ul, ol, li{list-style: none;}
+   a{
+       color:#333333;
+       text-decoration: none;
+   }
+   
+body{
+    font-family: "Noto Sans KR",'맑은 고딕', sans-serif;
+    font-size:12px;
+    color:#333333;
+}
+/*초기화 서식*/
+
+header, main, footer{width: 100%;}
+header{
+    height: 240px;
+    background-color:#222325;
+    color:#ffffff;
+}
+.h_top{
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+.h_top > h1{
+    padding-left: 50px;
+    height:150px; 
+    line-height: 100px;
+    text-align: left;
+}
+fieldset{
+   position: absolute;
+   right: 0px;
+   top:30px;
+}
+.h_bottom{
+    width:1200px; height: 80px; 
+    /* border:2px solid #e0d8ed; */
+    color:#fbf9fd;
+    text-align: center;
+    margin:0px auto;
+    clear: both;
+}
+.gnb > ul{padding-top: 20px;}
+.gnb > ul > li{
+    float:left;
+    width: 200px;
+    font-family: "Headline Gothic ATF";
+}
+.h_b01{
+    font-size: 26.67px;
+    line-height:55px;
+    color:#fbf9fd;
+}
+.h_b02{
+    font-size: 24px;
+    color:#fbf9fd;
+}
+.h_line, .f_line{
+    height: 10px; 
+    background-color: #f9c879;} 
+
+main{
+    height: 3740px; 
+    background-color: #151517; 
+    margin:0px auto;
+}
+
+.visual{
+    width:1200px; height: 590px; 
+    margin:0px auto;
+    background-color: #000000; 
+}
+.visual > video{
+width: 100%;
+}
+main > .con01{
+    width:850px; height: 550px;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    /* border:2px solid #e0d8ed; */
+    margin:0px auto;
+}
+.t01{
+    text-align: center;
+    font-size: 53.33px;
+    color: #ffffff;
+    font-family: "Mongolian Baiti";
+    font-weight: normal;
+    padding-top: 50px;
+    letter-spacing:2px;
+}
+.t001{font-size: 60px;}
+.t02{
+    font-family: "Noto Sans KR", sans-serif;
+    color:#f1e4d7;
+    font-size: 34.67px;
+    letter-spacing:2px;
+    padding-top: 5px;
+}
+.c01_img01{
+    position:absolute;
+    left:-1px; top:229px;
+    z-index: 7;
+}
+.c01_img02{
+    position:absolute;
+    left:177px;bottom:73px;
+}
+.c01_img03{
+    position:absolute;
+    left:593px;bottom:38px;
+}
+main > .history{
+    height: 360px; 
+    background-color: rgba(67,67,67,0.5);
+    position: relative;
+}
+main > .history > h3{display: none;}
+.hi{
+    width: 1080px; height: 313px;
+    margin:0px auto;
+    position: relative;
+    clear: both;
+}
+.hi_title{
+    font-size:37px;; font-weight: 500;
+    font-family: "Headline Gothic ATF";
+    color:#fcc978; letter-spacing:2px;
+    position: absolute; 
+    top:-20px; left: -2px;
+    z-index: 7
+}
+.hi > ul {
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: bold;
+    font-size:10px;
+    color:#151516;
+    position: absolute; top: 26px; left: 0px;
+    display: none;
+}
+.hi_con01{
+    width: 1080px; height: 313px;
+}
+.hi_year{
+    position: absolute;
+    top: 50px; z-index: 7
+}
+.hi_con02{
+    width: 1080px; height: 313px;
+    background-color:  rgba(229,229,229,0.7);
+    position: absolute;
+    top:24px;
+}
+.hi_c > li{
+    float: left;
+    padding: 90px 35px 0px 35px;
+    text-align: center;
+}
+.hi_con02 > li > p{ line-height: 12px; padding-top:10px;}
+.more01{
+    position: absolute;
+    bottom: -47px; right: 0px;
+    z-index: 5
+}
+main > .beer{
+    height: 460px; 
+    background-color: rgba(67,67,67,0.5); 
+    margin-top:70px;
+}
+main > .beer > h3{display: none;}
+.beer{margin:0px auto;}
+.be{
+    width: 700px; height: 330px;
+    margin:0px auto;
+    position: relative;
+}
+.be_title{
+    font-size:37px; font-weight: 500;
+    font-family: "Headline Gothic ATF";
+    color:#fcc978; letter-spacing:3px;
+    position: absolute;
+    bottom:276px; left: -53px;
+    z-index: 7
+}
+.be_con{
+    width: 700px; height: 330px;
+    background-color: rgba(229,229,229,0.7);
+    position: absolute;
+    top:38px;
+}
+.be_con > li:first-child{ 
+    color: #151516;
+    font-size:29px; letter-spacing:1px;
+    font-family: "Headline Gothic ATF";
+    padding-left: 160px; padding-top:46px;
+}
+.be_con > li:last-child{
+    color: #151516;
+    font-size:20px; letter-spacing:1px;
+    font-family: "Headline Gothic ATF";
+    padding-left: 54px; padding-top:28px;
+}
+.be_01{
+    color: #151516;
+    font-size:13.33px; letter-spacing:1px;
+    font-family: "Noto Sans KR", sans-serif; 
+    font-weight: bold;
+    position: absolute; z-index: 7;
+    padding-left: 52px; padding-top:180px;
+}
+.be_01 > li:nth-child(2n){line-height:35px;}
+.beer01{
+    position:absolute;
+    right:-32px; top:55px;
+}
+.be_c01{
+    position: absolute; z-index: 7;
+    padding-top: 320px;
+    padding-left: 40px;
+    }
+.be_c01 > li > a{
+    background-color: #151516;
+    border:2px solid #151516;
+    border-radius:5px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #fcfcfd; font-size: 14px;
+    padding: 5px 10px;
+}
+/* .beers{
+    position:absolute;
+    right:-182px; bottom:-110px;
+} */
+/* .line{border-top:1px solid #fff;} */
+.beers{
+    border-top:1px solid #fff;
+    width: 1200px;
+    justify-content: space-evenly;
+    font-size:13px; font-weight: bold;
+    position: absolute; bottom: -170px; right:-300px;
+    display: flex;
+}
+.beers li{line-height: 50px;}
+.beers li a{
+    color: #838384;
+}
+.beers .beers05{
+    color: #fff;
+    font-size: 17px;
+}
+
+.more02{
+    position:absolute;
+    right:-150px; top:200px;
+}
+main > .clear{height: 540px; }
+main > .clear > h3{display: none;}
+.cl{
+    width: 1070px; height: 425px;
+    /* border:2px solid #e0d8ed; */
+    margin:0px auto;
+    position: relative;
+}
+.cl_title{
+    font-size:37px; font-weight: 500;
+    font-family: "Headline Gothic ATF";
+    color:#fcc978; letter-spacing:3px;
+    padding-top: 60px;
+}
+.clear01{
+    padding-top: 25px;
+}
+.clear02{
+    padding-left: 15px;
+    padding-bottom: 175.5px;
+}
+.clear03{
+    position: absolute;
+    right:390px; bottom:-47px;
+}
+.cl_txt{
+    position: absolute;
+    right:-66px; bottom:21px;
+}
+.cl > ul > li{
+    text-align: center;
+    line-height: 20px;
+    letter-spacing:2px;
+    }
+.cl_txt > li:first-child{
+    color: #f1e4d7;
+    font-size: 26.67px;
+    font-family:"Headline Gothic ATF";
+}
+.cl_txt > li:nth-child(2){
+    color: #9c9d9e;
+    font-size:14.67px;
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    }
+.cl_txt > li:nth-child(3){
+    color: #fdfcfb;
+    font-size:17px;
+    font-family:"Sandoll 고딕Neo3";
+    padding-top: 20px
+}
+.cl_txt > li:nth-child(4){
+    color: #9c9d9e;
+    font-size:14.67px;
+    font-family:"Noto Sans KR", sans-serif;
+     font-weight: bold; padding-top: 20px;
+    }
+    .cl_txt > li:nth-child(5){
+    color: #9c9d9e;
+    font-size:14.67px;
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: bold;
+    line-height:2px; padding-top: 20px;
+    }
+    .cl_txt > li:nth-child(6){
+    color: #9c9d9e;
+    font-size:14.67px;
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: bold;
+    line-height:2px; padding-top: 3px;
+    }
+    .cf01{
+        position: relative;
+        bottom:-4px;
+    }
+    .more03{
+        position:absolute;
+        right:-50px; bottom:-60px;
+    }
+main > .recipes{
+    height: 470px; 
+    background-color: rgba(67,67,67,0.5);
+}
+main > .recipes > h3{display: none;}
+
+.re{
+    width: 1020px; height: 480px;
+    margin:0px auto;
+    position: relative;
+}
+.re_title{
+    font-size:37px; font-weight: 500;
+    font-family: "Headline Gothic ATF";
+    color:#fcc978; letter-spacing:3px;
+    position:absolute;
+    right: 70px; top:-10px;
+}
+.r01{
+    width: 860px; height: 350px;
+    background-color: rgba(229,229,229,0.7);
+    position: absolute;
+    top:76px; 
+}
+.r01 > li{
+    font-size: 10.67px; color: #151516;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: bold; text-align: center;
+    position: absolute; right: 170px; bottom: 100px;
+    line-height: 15px;
+}
+.re_txt{
+    font-size: 21.33px; color: #fefefe;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: bold; letter-spacing: 1px;
+    text-align: center; 
+    padding-right: 450px; padding-top:20px;
+}
+.re_txt01{
+    font-family: "Headline Gothic ATF";
+    font-size: 14px; color: #fefefe;
+    letter-spacing: 2px;
+    text-align: right;
+     padding-right: 590px; padding-top:10px
+}
+.re_txt02{
+    font-size: 16px; color: #151516;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: bold; text-align: center;
+    padding-top: 30px; 
+    position: absolute; left: 180px;
+    z-index:7;
+}
+.re_txt03{
+    font-size: 12px; color: #151516;
+    /* font-family:"Noto Sans KR", sans-serif; */
+    /* font-weight: bold;  */
+    text-align: center;
+    padding-top: 40px;
+    position: absolute; left: 130px;
+    z-index:7;
+}
+.re_txt03 > li{
+    line-height: 20px;
+}
+.re_txt03 > li{
+    padding-top :15px;
+}
+.fa-plus-square{
+    color: #787878;
+    font-size: 20px;
+    position: absolute;
+    bottom: 113px; left: 490px;
+    /* font-weight: lighterssS */
+}
+.re_txt04{
+    font-size: 26.67px;; color: #fcc978;
+    font-family: "Mongolian Baiti";
+    position: absolute;  z-index:7;
+    bottom: 30px; left: 20px;
+    
+}
+.recipes01{
+    position: absolute;
+    right: -39px; top:32px;
+}
+.more04{
+    position: absolute;  z-index:7;
+    bottom: 10px; left: 140px;
+}
+
+/* 기네스 북 */
+main > .book{
+    height: 645px; 
+}
+main > .book > h3{display: none;}
+.bo{
+    width: 1060px; height: 645px;
+    /* border:2px solid #e0d8ed; */
+    margin:0px auto;
+    clear: both; position: relative;
+}
+.bo_title{
+    font-size:37px; font-weight: 500;
+    font-family: "Headline Gothic ATF";
+    color:#fcc978; letter-spacing:2px;
+    text-align: center; 
+    padding:40px 0px 30px 0px;
+}
+.bo_img{
+    text-align: center;
+    display: flex;
+}
+.bo_img > li{
+    color: #787878; font-size: 12px;
+    /* font-family: "Noto Sans KR", sans-serif; */
+    /* float: left; */
+}
+.bo_img > li > p{padding-top: 15px;}
+.book02_txt{line-height: 15px;}
+.bo_con{
+    color: #959596; font-size: 10.67px;
+    /* font-family: "Noto Sans KR", sans-serif; */
+    text-align: center; 
+    position: absolute; right: 280px; bottom: 70px;
+}
+.bo_con > li:first-child{
+    line-height: 25px;
+}
+.bo_con > li:last-child{
+    padding-top: 30px;
+    line-height: 25px;
+}
+.more05{
+    position: absolute;
+    right: 205px; bottom:50px;
+}
+
+footer{
+    height: 240px; 
+    background-color: #222325;
+    
+}
+footer > .f_inner > .f_sns > h3{display: none;}
+footer > .f_inner > .f_logo0 > h3{display: none;}
+.f_inner{
+    width: 1200px;
+    margin: 0px auto;
+    color: #ffffff;
+    position: relative;
+}
+.f_inner > h2{
+    width: 1200px; height: 70px;
+    text-align: center; padding-top: 30px;
+}
+.f_sns{
+    width: 1200px;
+    position: absolute;
+    top: 30px; left:70px;
+}
+.f_sns > ul{}
+.f_sns> ul > li{
+    width: 35px; height: 35px;
+    display: inline-block;
+}
+
+aside{
+    position:relative;
+    border:2px solid #f1e4d7;
+    width: 50px; height: 50px;
+    border-radius: 50px;
+    float:right; bottom:80px;
+}
+aside > a{
+    color:#fbf9fd;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top:17px; right: 9px;
+}
+.f_inner > address{
+    text-align: center;
+    line-height: 25px;
+    font-size: 10.67px; font-family: "Noto Sans KR", sans-serif;
+    color: #787878;;
+    margin-top: 35px;
+}
+.f_inner > section > ul > li{
+   float: left;
+   }
+.f_logo01{
+    width: 1200px;
+    margin:0px auto;
+}
+.f_logo01 > li:first-child{
+position: absolute;
+   right: 230px; bottom:120px;
+}
+.f_logo01 > li:last-child{
+position: absolute;
+   right: 130px; bottom:120px;
+}

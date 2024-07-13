@@ -1,0 +1,129 @@
+@charset "utf-8";
+     /*초기화 서식*/
+     *{margin:0px;padding:0px;}
+     ul, ol, li{list-style: none;}
+     a{
+         color:#333333;
+         text-decoration: none;
+     }
+     body{
+         font-family: "맑은고딕", arial, sans-serif;
+         font-size:12px;
+         color:#333333;
+     }
+     h4{display: none;}
+     /*초기화 서식*/
+
+     header, main, footer{width: 100%;}
+     header{
+         height: 240px;
+         background-color:#222325;
+         color:#ffffff;
+     }
+     .h_top{
+         width: 1200px;
+         /* border:2px solid #e0d8ed; */
+         margin: 0px auto;
+         position: relative;
+     }
+     .h_top > h1{
+         padding-left: 50px;
+         height:150px; 
+         line-height: 100px;
+         text-align: left;
+     }
+     fieldset{
+        position: absolute;
+        right: 0px;
+        top:30px;
+     }
+     .h_bottom{
+         width:1200px; height: 80px; 
+         /* border:2px solid #e0d8ed; */
+         color:#fbf9fd;
+         text-align: center;
+         margin:0px auto;
+         clear: both;
+     }
+     .gnb > ul{
+         padding-left: 80px;
+         font-family: "Headline Gothic ATF";
+     }
+     .gnb > ul > li{
+         float:left;
+         padding-right: 126px;
+     }
+     .h_b01{
+         font-size: 26.67px;
+         line-height:55px;
+         color:#fbf9fd;
+     }
+     .h_b02{
+         font-size: 24px;
+         color:#fbf9fd;
+     }
+     .h_line, .f_line{
+         height: 10px; 
+         background-color: #f9c879;
+         }
+
+     .c_sub{
+         text-align: center;
+     }
+     main{
+         height:1113px;
+         background-color: #151516;
+         }
+
+
+     footer{
+         height: 232px;
+         background-color: #222325;
+         
+     }
+     .f_inner{
+         width: 1200px;
+         margin: 0px auto;
+         color: #ffffff;
+         position: relative;
+     }
+     .f_inner > h2{
+         width: 1200px; height: 70px;
+         text-align: center; padding-top: 30px;
+     }
+     .f_sns{
+         width: 1200px;
+         margin:0px auto;
+     }
+     .f_sns > ul{
+        position: absolute;
+        top: 30px;
+     }
+     .f_sns> ul > li{
+         width: 35px; height: 35px;
+         margin-bottom: -2px;
+         /* float:left */
+         display: inline-block;
+     }
+     .f_inner > address{
+         text-align: center; 
+         line-height: 25px;
+         font-size: 10.67px; font-family: "Noto Sans CJK KR";
+         color: #787878;;
+         padding-top: 40px;
+     }
+     .f_inner > section > ul > li{
+        float: left;
+        }
+     .f_logo01{
+         width: 1200px;
+         margin:0px auto;
+     }
+    .f_logo01 > li:first-child{
+     position: absolute;
+        right: 230px; bottom:100px;
+    }
+    .f_logo01 > li:last-child{
+     position: absolute;
+        right: 130px; bottom:100px;
+    }
