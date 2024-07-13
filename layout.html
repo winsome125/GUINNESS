@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>메인페이지</title>
+        <!-- 여백 초기화 -->
+        <link href="./css/reset.css" rel="stylesheet" type="text/css">
+        <style>
+            header, main, footer{width: 100%;}
+            header{
+                height: 230px;
+                background-color:#222325;
+            }
+            .h_top{
+                width: 1200px;
+                background-color:#323338;
+                margin: 0px auto;
+            }
+            .h_top > h1{
+                height:150px; 
+                line-height: 100px;
+                color:#ffffff;
+            }
+            .h_top > article{
+                height: 35px; 
+                color:#ffffff;
+                text-align: right;
+            }
+            .h_bottom{
+                width:1200px; height: 80px; 
+                background-color: #404144; 
+                color:#ffffff; text-align: center;
+                margin:0px auto;
+            }
+            .h_line, .f_line{
+                height: 10px; 
+                background-color: #f9c879;}
+            main{
+                width: 1200px;
+                height: 3740px; 
+                background-color: #151517; 
+                margin:0px auto;
+            }
+            main > .visual{
+                background-color: #404144;
+                width:1200px; height: 590px; 
+                margin:0px auto;
+            }
+            main > .con01{
+                height: 550px; 
+                background-color: rgb(222,222,226);
+            }
+            main > .con02{
+                height: 390px; 
+                background-color: rgb(228, 228, 236);
+            }
+            main > .con03{
+                height: 460px; 
+                background-color: rgb(214, 214, 218); margin-top:70px;
+            }
+            main > .con04{
+                height: 540px; 
+                background-color: rgb(246, 246, 246);
+            }
+            main > .con05{
+                height: 495px; 
+                background-color: rgb(155,157,165);
+            }
+            main > .con06{
+                height: 645px; 
+                background-color: rgb(119,121,129);
+            }
+            footer{
+                height: 232px; 
+                background-color: #222325;
+                color: #fbf9fd;;
+            }
+            .f_inner{
+                width: 1200px;
+                margin: 0px auto;
+            }
+            .f_inner > h2{
+                text-align: center;
+                height: 70px;
+                }
+            .f_inner > address{
+                text-align: center;
+                line-height: 40px;
+            }
+            .f_inner > section{
+                text-align:right
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 1. 상단 해더 영역 -->
+        <header>
+            <div class="h_top">
+                <h1>상단로고 가로300 세로100</h1>
+                <article>언어변경, 검색</article>
+            </div>
+            <div class="h_bottom"><nav>내비게이션</nav></div>
+        </header>
+        <div class="h_line">라인</div>
+
+        <!-- 2. 콘텐츠 영역-->
+        <main>
+            <div class="visual">
+                유튜브영상 width:1200px height:590
+            </div>
+            <div class="con01">
+                <section class="m01">GUINNESS</section>
+                <section class="m02">'하루1000만잔 이상 판매' 세계 1위 흑맥주 height:550</section>
+                <!--width:850 height:460-->
+            </div>
+            <div class="con02">
+                <article>THE HISTORY OF GUINNESS&#x00AE;    height:360px;</article>
+            </div>
+            <div class="con03">
+                <article>GUINNESS&#x00AE; BEER    height:460px;</article>
+            </div>
+            <div class="con04">
+                <article>GUINNESS CLEAR   height:560px;</article>
+            </div>
+            <div class="con05">
+                <article>RECIPES &#x0026; PAIRINGS    height:475 px;</article>
+            </div>
+             <div class="con06">
+                <article>GUINNESS&#x00AE; GUINNESS BOOK height:645px;</article>
+            </div>
+        </main>
+
+        <div class="f_line">라인</div>
+        <!-- 3. 푸터영역-->
+        <footer>
+            <div class="f_inner">
+                <h2>하단로고 가로300 세로70</h2>
+                <article>sns_icon</article>
+                <section>로고 링크</section>
+                <address>회사정보 가로 70 세로860</address>
+            </div>
+        </footer>
+
+    </body>
+</html>

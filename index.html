@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>메인페이지</title>
+        <!-- 여백 초기화 -->
+        <link href="./css/reset.css" rel="stylesheet" type="text/css">
+        <!-- 메인페이지 서식 -->
+        <link href="./css/main.css"  rel="stylesheet" type="text/css">
+        <!--Noto Sans CJK KR-->
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet"> -->
+        <!--Headline Gothic ATF 대채 폰트 링크 -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap" rel="stylesheet">
+        <!-- 아이콘 폰트 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="./script/main.js"></script>
+
+        <!-- <script>
+            $(document).ready(function(){
+
+
+                $('.hi_con02').show();
+
+
+                $('#b01').click(function(){
+                  $('.hi_c').hide();
+                  $('.hi_con02').show();
+                  return false;
+                });
+
+                $('#b02').click(function(){
+                  $('.hi_c').hide();
+                  $('.hi_con03').show();
+                  return false;
+                });
+
+                $('#b03').click(function(){
+                  $('.hi_c').hide();
+                  $('.hi_con04').show();
+                  return false;
+                });
+
+                $('#b04').click(function(){
+                  $('.hi_c').hide();
+                  $('.hi_con05').show();
+                  return false;
+                });
+
+                $('#b05').click(function(){
+                  $('.hi_c').hide();
+                  $('.hi_con06').show();
+                  return false;
+                });
+
+                $('#b06').click(function(){
+                  $('.hi_c').hide();
+                  $('.hi_con07').show();
+                  return false;
+                });
+            
+            
+            });
+        </script> -->
+
+    </head>
+
+    <body>
+        <form name="header" method="post">
+        <!-- 1. 상단 해더 영역 -->
+        <header>
+            <div class="h_top">
+                <h1>
+                    <a href="guinness_index.html" title="메인페이지로 바로가기"><img src="./image/GUINNESS_main_logo.svg" alt="메인페이지로고" width="350" height="150"></a>
+                </h1>
+
+                        <fieldset>
+                            <select>
+                                <option>korea</option>
+                                <option>english</option>
+                            </select>
+                            <input type="text" placeholder="검색어를 입력하세요"><input type="image" src="./image/search01.png" alt="검색" class="search_btn">
+                        </fieldset>
+            </div>
+
+            <div class="h_bottom">
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="guinness.ours.html" title="역사" class="h_b01">OURS</a></li>
+                        <li><a href="guinness.shop.html" title="SHOP"  class="h_b01">SHOP</a></li>
+                        <li><a href="http://starry.dothome.co.kr/guinness/index_sub.html" title="기네스 맥주 종류"  class="h_b01">BEERS</a></li>
+                        <li><a href="guinness.event.html" title="이벤트"  class="h_b01">EVENT</a></li>
+                        <li><a href="guinness.recipes_pairings.html" title="레시피와 페어링"  class="h_b02">RECIPES<br>& PAIRINGS</a></li>
+                        <li><a href="guinness.storehouse.html" title="기네스스토어"  class="h_b02">GUINNESS<br>STOREHOUSE</a></li>
+                    </ul>
+              </nav>
+           </div>
+        </header>
+        <div class="h_line"><!-- 라인 --> </div>
+
+        <!-- 2. 콘텐츠 영역-->
+        <main>
+
+            <div class="visual">
+                <!-- 유튜브영상 width:1200px height:590 -->
+                <video controls src="./image/visual_video01.mp4" autoplay muted></video>
+            </div>
+
+           <section class="con01"><!--height:550-->
+
+            <h2 class="t01"><span class="t001">G</span>UINNESS</h2>
+
+            <article  class="c_c01">
+                <h3 class="t02">'하루1000만잔 이상 판매' 세계 1위 흑맥주</h3>
+                <img src="./image/main_image_01.jpg" alt="메인이미지01" class="c01_img01">
+                <img src="./image/main_image_02.jpg" alt="메인이미지02" class="c01_img02">
+                <img src="./image/main_image_03.jpg" alt="메인이미지03" class="c01_img03">
+            </article>
+              <!--width:850 height:460-->
+           </section>
+
+            <section class="history"><!--height:360px;-->
+                <h3>제목</h3>
+
+                <article class="hi">
+
+                    <h3 class="hi_title">THE HISTORY OF GUINNESS&#x00AE;</h3>
+
+                    <span class="hi_con01">
+                            <img src="./image/history_years.png" title="history_years" class="hi_year" usemap="#year">
+                            <map name="year">
+                                <area shape="rect" coords="72,3,187,32" href="#" id="b01">
+                                <area shape="rect" coords="231,2,346,31" href="#" id="b02">
+                                <area shape="rect" coords="397,3,512,33" href="#" id="b03">
+                                <area shape="rect" coords="563,1,678,31" href="#" id="b04">
+                                <area shape="rect" coords="727,1,843,32" href="#" id="b05">
+                                <area shape="rect" coords="892,4,1008,32" href="#" id="b06">
+                            </map>
+                    </span>
+                    <ul class="hi_c hi_con02">
+                        <!-- 1775~1825 -->
+                        <li>
+                            <img src="./image/history01.jpg" alt="1725년 BIRTH OF A BREWING LEGEND">
+                            <p>1725년<br>양조 전설의 탄생<br>BIRTH OF A BREWING LEGEND</p>
+                        </li>
+                        <li>
+                            <img src="./image/history02.jpg" alt="1752년 HUMBLE BEGINNINGS">
+                            <p>1752년<br>겸손한 시작<br>HUMBLE BEGINNINGS</p>
+                        </li>
+                        <li>
+                            <img src="./image/history03.jpg" alt="1759년 DESTINED FOR DUBLIN">
+                            <p>1759년<br>더블린으로 향함<br>DESTINED FOR DUBLIN</p>
+                        </li>
+                        <li>
+                            <img src="./image/history04.jpg" alt="1759년 THE 9000-YEAR LEASE">
+                            <p>1759년<br>9000년 임대<br>THE 9000-YEAR LEASE</p>
+                        </li>
+                        <li>
+                            <img src="./image/history05.jpg" alt="1769년 THE MAIDEN VOYAGE">
+                            <p>1769년<br>메이든 보야지<br>THE MAIDEN VOYAGE</p>
+                        </li>
+                    </ul>
+
+                    <ul class="hi_c hi_con03">
+                        <!--1775~1825 -->
+                        <li>
+                            <img src="./image/" alt="1725년 BIRTH OF A BREWING LEGEND">
+                            <p>1799년<br>믿음의 도약<br>A LEAP OF FAITH</p>
+                        </li>
+                        <li>
+                            <img src="./image/history02.jpg" alt="1752년 HUMBLE BEGINNINGS">
+                            <p>1801년<br>여행길에 오르는 맥주<br>THE BEER THAT TRAVELLED</p>
+                        </li>
+                        <li>
+                            <img src="./image/history03.jpg" alt="1759년 DESTINED FOR DUBLIN">
+                            <p>1803년<br>새로운 상속인<br>A NEW HEIR</p>
+                        </li>
+                        <li>
+                            <img src="./image/history04.jpg" alt="1759년 THE 9000-YEAR LEASE">
+                            <p>1821년<br>포터의 완성<br>PERFECTING THE PORTER</p>
+                        </li>
+                        <!-- <li>
+                            <img src="./image/history05.jpg" alt="1769년 THE MAIDEN VOYAGE">
+                            <p>1769년<br>메이든 보야지<br>THE MAIDEN VOYAGE</p>
+                        </li> -->
+                    </ul>
+
+                    <ul class="hi_c hi_con04">
+                        <!-- 1825~1875-->
+                        <li>
+                            <img src="./image/history01.jpg" alt="1725년 BIRTH OF A BREWING LEGEND">
+                            <p>1850년<br>물려받은 기술<br>INHERITED SKILL</p>
+                        </li>
+                        <li>
+                            <img src="./image/history02.jpg" alt="1752년 HUMBLE BEGINNINGS">
+                            <p>1858년<br>개척 정신<br>PIONEERING SPIRIT</p>
+                        </li>
+                        <li>
+                            <img src="./image/history03.jpg" alt="1759년 DESTINED FOR DUBLIN">
+                            <p>1861년<br>세련된 서브<br>STYLISH SERVES</p>
+                        </li>
+                        <li>
+                            <img src="./image/history04.jpg" alt="1759년 THE 9000-YEAR LEASE">
+                            <p>1862년<br>승인의 인장<br>OUR SEAL OF APPROVAL</p>
+                        </li>
+                        <li>
+                            <img src="./image/history05.jpg" alt="1769년 THE MAIDEN VOYAGE">
+                            <p>1868년<br>더 크고 더 좋은<br>BIGGER AND BETTER</p>
+                        </li>
+                    </ul>
+
+                    <ul class="hi_c hi_con05">
+                        <!-- 1875~1925 -->
+                        <li>
+                            <img src="./image/history01.jpg" alt="1725년 BIRTH OF A BREWING LEGEND">
+                            <p>1877년<br>기네스® 함대<br>THE GUINNESS® FLEET</p>
+                        </li>
+                        <li>
+                            <img src="./image/history02.jpg" alt="1752년 HUMBLE BEGINNINGS">
+                            <p>1893년<br>실험적 사고<br>EXPERIMENTAL THINKING</p>
+                        </li>
+                        <li>
+                            <img src="./image/history03.jpg" alt="1759년 DESTINED FOR DUBLIN">
+                            <p>1901년<br>정확한 과학<br>AN EXACT SCIENCE</p>
+                        </li>
+                        <!-- <li>
+                            <img src="./image/history04.jpg" alt="1759년 THE 9000-YEAR LEASE">
+                            <p>1759년<br>9000년 임대<br>THE 9000-YEAR LEASE</p>
+                        </li>
+                        <li>
+                            <img src="./image/history05.jpg" alt="1769년 THE MAIDEN VOYAGE">
+                            <p>1769년<br>메이든 보야지<br>THE MAIDEN VOYAGE</p>
+                        </li> -->
+                    </ul>
+
+                    <ul class="hi_c hi_con06">
+                        <!-- 1925~1975 -->
+                        <li>
+                            <img src="./image/history01.jpg" alt="1725년 BIRTH OF A BREWING LEGEND">
+                            <p>1927년<br>가족 내에서의 유지<br>KEEPING IT IN THE FAMILY</p>
+                        </li>
+                        <li>
+                            <img src="./image/history02.jpg" alt="1752년 HUMBLE BEGINNINGS">
+                            <p>1929년<br>용기 있는 창조성<br>COURAGEOUSLY CREATIVE</p>
+                        </li>
+                        <li>
+                            <img src="./image/history03.jpg" alt="1759년 DESTINED FOR DUBLIN">
+                            <p>1939년<br>홀가분한 병사<br>AT EASE SOLDIER</p>
+                        </li>
+                        <li>
+                            <img src="./image/history04.jpg" alt="1759년 THE 9000-YEAR LEASE">
+                            <p>1959년<br>200주년 병 떨어뜨리다<br>BI-CENTENARY BOTTLE DROP</p>
+                        </li>
+                        <li>
+                            <img src="./image/history05.jpg" alt="1769년 THE MAIDEN VOYAGE">
+                            <p>1959년<br>아이콘의 출시<br>THE LAUNCH OF AN ICON</p>
+                        </li>
+                        <li>
+                            <img src="./image/history04.jpg" alt="1759년 THE 9000-YEAR LEASE">
+                            <p>1963년<br>진정한 아프리카<br>AUTHENTICALLY AFRICAN</p>
+                        </li>
+                        <li>
+                            <img src="./image/history05.jpg" alt="1769년 THE MAIDEN VOYAGE">
+                            <p>1965년<br>새로운 지역<br>NEW TERRITORIES</p>
+                        </li>
+                    </ul>
+
+                    <ul class="hi_c hi_con07">
+                        <!-- 1975~ 현재 -->
+                        <li>
+                            <img src="./image/history01.jpg" alt="1725년 BIRTH OF A BREWING LEGEND">
+                            <p>1985년<br>순수한 광고 천재<br>PURE ADVERTISING GENIUS</p>
+                        </li>
+                        <li>
+                            <img src="./image/history02.jpg" alt="1752년 HUMBLE BEGINNINGS">
+                            <p>1988년<br>로켓 위젯<br>THE ROCKET WIDGET</p>
+                        </li>
+                        <li>
+                            <img src="./image/history03.jpg" alt="1759년 DESTINED FOR DUBLIN">
+                            <p>1991년<br>기네스 대 인터넷<br>GUINNESS VERSUS THE INTERNET</p>
+                        </li>
+                        <li>
+                            <img src="./image/history04.jpg" alt="1759년 THE 9000-YEAR LEASE">
+                            <p>1998년<br>틱 팔로우 톡<br>TICK FOLLOWED TOCK</p>
+                        </li>
+                        <li>
+                            <img src="./image/history05.jpg" alt="1769년 THE MAIDEN VOYAGE">
+                            <p>1999년<br>로켓 출시하다<br>ROCKET LAUNCH</p>
+                        </li>
+                        <li>
+                            <img src="./image/history01.jpg" alt="1725년 BIRTH OF A BREWING LEGEND">
+                            <p>2000년<br>기네스 스토어하우스®<br>GUINNESS STOREHOUSE®</p>
+                        </li>
+                        <li>
+                            <img src="./image/history02.jpg" alt="1752년 HUMBLE BEGINNINGS">
+                            <p>2009년<br>기억할 기념일<br>AN ANNIVERSARY TO REMEMBER</p>
+                        </li>
+                        <li>
+                            <img src="./image/history03.jpg" alt="1759년 DESTINED FOR DUBLIN">
+                            <p>2012년<br>'더 많이 만든'<br>MADE OF MORE</p>
+                        </li>
+                        <li>
+                            <img src="./image/history04.jpg" alt="1759년 THE 9000-YEAR LEASE">
+                            <p>2014년<br>브루어스 프로젝트<br>THE BREWERS PROJECT</p>
+                        </li>
+                        <li>
+                            <img src="./image/history05.jpg" alt="1769년 THE MAIDEN VOYAGE">
+                            <p>2015년~<br>여행은 계속된다<br>THE JOURNEY CONTINUES</p>
+                        </li>
+                    </ul>
+
+                    <a href="the_history_of_guinness.html" title="더보기버튼" class="more01"><img src="./image/more_01.png" alt="기네스역사 서브페이지 이동"></a>
+                </article>
+                <!--width:1080 height:370 -->
+            </section>
+
+            <section class="beer"> <!--height:460px;-->
+                <h3>제목</h3>
+                <article class="be">
+
+                   <h3 class="be_title">GUINNESS&#x00AE; BEER</h3>
+
+                    <div class="beer_box box01">
+                        <ul class="be_con">
+                             <li>GUINNESS ORIGINAL</li>
+                             <li>TASTING NOTES</li>
+                         </ul>
+
+                        <ul class="be_01">
+                             <li>· 향 :  중간 및 균형. 미묘한 발효 과일 향을 지닌 로스트 캐릭터</li>
+                             <li>· 풍미 : 쓴맛과 단맛의 완벽한 둥근 풍미</li> 
+                             <li>· 맛 : 약간의 물기가있어 매끄럽고 건조하게 마무리됩니다.
+                             <li>· ABV : 5%</li>
+                             <li>· 외관 : 풍부한 크림 같은 머리를 가진 뚜렷한 검은 색 풀 바디 액체</li>
+                        </ul>
+
+                        <ul class="be_c01">
+                             <li>
+                                <a href="http://starry.dothome.co.kr/guinness/index_sub02.html" title="자세히보기" >자세히보기</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="beer_box box02">
+                        <ul class="be_con">
+                             <li>GUINNESS ORIGINAL</li>
+                             <li>TASTING NOTES</li>
+                         </ul>
+
+                        <ul class="be_02">
+                             <li>· 향 :  중간 및 균형. 미묘한 발효 과일 향을 지닌 로스트 캐릭터</li>
+                             <li>· 풍미 : 쓴맛과 단맛의 완벽한 둥근 풍미</li> 
+                             <li>· 맛 : 약간의 물기가있어 매끄럽고 건조하게 마무리됩니다.
+                             <li>· ABV : 5%</li>
+                             <li>· 외관 : 풍부한 크림 같은 머리를 가진 뚜렷한 검은 색 풀 바디 액체</li>
+                        </ul>
+
+                        <ul class="be_02">
+                             <li>
+                                <a href="http://starry.dothome.co.kr/guinness/index_sub02.html" title="자세히보기" >자세히보기</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="beer_box box03">
+                        <ul class="be_con">
+                             <li>GUINNESS ORIGINAL</li>
+                             <li>TASTING NOTES</li>
+                         </ul>
+
+                        <ul class="be_con02">
+                             <li>· 향 :  중간 및 균형. 미묘한 발효 과일 향을 지닌 로스트 캐릭터</li>
+                             <li>· 풍미 : 쓴맛과 단맛의 완벽한 둥근 풍미</li> 
+                             <li>· 맛 : 약간의 물기가있어 매끄럽고 건조하게 마무리됩니다.
+                             <li>· ABV : 5%</li>
+                             <li>· 외관 : 풍부한 크림 같은 머리를 가진 뚜렷한 검은 색 풀 바디 액체</li>
+                        </ul>
+
+                        <ul class="be_con03">
+                             <li>
+                                <a href="http://starry.dothome.co.kr/guinness/index_sub02.html" title="자세히보기" >자세히보기</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="beer_box box04">
+                        <ul class="be_con">
+                             <li>GUINNESS ORIGINAL</li>
+                             <li>TASTING NOTES</li>
+                         </ul>
+
+                        <ul class="be_con02">
+                             <li>· 향 :  중간 및 균형. 미묘한 발효 과일 향을 지닌 로스트 캐릭터</li>
+                             <li>· 풍미 : 쓴맛과 단맛의 완벽한 둥근 풍미</li> 
+                             <li>· 맛 : 약간의 물기가있어 매끄럽고 건조하게 마무리됩니다.
+                             <li>· ABV : 5%</li>
+                             <li>· 외관 : 풍부한 크림 같은 머리를 가진 뚜렷한 검은 색 풀 바디 액체</li>
+                        </ul>
+
+                        <ul class="be_con03">
+                             <li>
+                                <a href="http://starry.dothome.co.kr/guinness/index_sub02.html" title="자세히보기" >자세히보기</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="beer_box box05">
+                        <ul class="be_con">
+                             <li>GUINNESS ORIGINAL</li>
+                             <li>TASTING NOTES</li>
+                         </ul>
+
+                        <ul class="be_con02">
+                             <li>· 향 :  중간 및 균형. 미묘한 발효 과일 향을 지닌 로스트 캐릭터</li>
+                             <li>· 풍미 : 쓴맛과 단맛의 완벽한 둥근 풍미</li> 
+                             <li>· 맛 : 약간의 물기가있어 매끄럽고 건조하게 마무리됩니다.
+                             <li>· ABV : 5%</li>
+                             <li>· 외관 : 풍부한 크림 같은 머리를 가진 뚜렷한 검은 색 풀 바디 액체</li>
+                        </ul>
+
+                        <ul class="be_con03">
+                             <li>
+                                <a href="http://starry.dothome.co.kr/guinness/index_sub02.html" title="자세히보기" >자세히보기</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="beer_box box06">
+                        <ul class="be_con">
+                             <li>GUINNESS ORIGINAL</li>
+                             <li>TASTING NOTES</li>
+                         </ul>
+
+                        <ul class="be_con02">
+                             <li>· 향 :  중간 및 균형. 미묘한 발효 과일 향을 지닌 로스트 캐릭터</li>
+                             <li>· 풍미 : 쓴맛과 단맛의 완벽한 둥근 풍미</li> 
+                             <li>· 맛 : 약간의 물기가있어 매끄럽고 건조하게 마무리됩니다.
+                             <li>· ABV : 5%</li>
+                             <li>· 외관 : 풍부한 크림 같은 머리를 가진 뚜렷한 검은 색 풀 바디 액체</li>
+                        </ul>
+
+                        <ul class="be_con03">
+                             <li>
+                                <a href="http://starry.dothome.co.kr/guinness/index_sub02.html" title="자세히보기" >자세히보기</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="beer_box box07">
+                        <ul class="be_con">
+                             <li>GUINNESS ORIGINAL</li>
+                             <li>TASTING NOTES</li>
+                         </ul>
+
+                        <ul class="be_con02">
+                             <li>· 향 :  중간 및 균형. 미묘한 발효 과일 향을 지닌 로스트 캐릭터</li>
+                             <li>· 풍미 : 쓴맛과 단맛의 완벽한 둥근 풍미</li> 
+                             <li>· 맛 : 약간의 물기가있어 매끄럽고 건조하게 마무리됩니다.
+                             <li>· ABV : 5%</li>
+                             <li>· 외관 : 풍부한 크림 같은 머리를 가진 뚜렷한 검은 색 풀 바디 액체</li>
+                        </ul>
+
+                        <ul class="be_con03">
+                             <li>
+                                <a href="http://starry.dothome.co.kr/guinness/index_sub02.html" title="자세히보기" >자세히보기</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="beer_box box08">
+                        <ul class="be_con">
+                             <li>GUINNESS ORIGINAL</li>
+                             <li>TASTING NOTES</li>
+                         </ul>
+
+                        <ul class="be_con02">
+                             <li>· 향 :  중간 및 균형. 미묘한 발효 과일 향을 지닌 로스트 캐릭터</li>
+                             <li>· 풍미 : 쓴맛과 단맛의 완벽한 둥근 풍미</li> 
+                             <li>· 맛 : 약간의 물기가있어 매끄럽고 건조하게 마무리됩니다.
+                             <li>· ABV : 5%</li>
+                             <li>· 외관 : 풍부한 크림 같은 머리를 가진 뚜렷한 검은 색 풀 바디 액체</li>
+                        </ul>
+
+                        <ul class="be_con03">
+                             <li>
+                                <a href="http://starry.dothome.co.kr/guinness/index_sub02.html" title="자세히보기" >자세히보기</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- <img src="image/guinness_beers.png" alt="beer" class="beers"> -->
+                  <div class="line">
+                    <ul class="beers">
+                        <li><a href="#" title="GUINNESS 0.0" class="beers01">GUINNESS 0.0</a></li>
+                        <li><a href="#" title="DRAUGHT" class="beers02">DRAUGHT</a></li>
+                        <li><a href="#" title="DUBLIN PORTER" class="beers03">DUBLIN PORTER</a></li>
+                        <li><a href="#" title="GOLDEN ALE" class="beers04">GOLDEN ALE</a></li>
+                        <li><a href="#" title="GUINNESS ORIGINAL" class="beers05">GUINNESS ORIGINAL</a></li>
+                        <li><a href="#" title="HOP HOUSE 13 LAGER" class="beers06">HOP HOUSE 13 LAGER</a></li>
+                        <li><a href="#" title="FOREIGN EXTRA STOUT" class="beers07">FOREIGN EXTRA STOUT</a></li>
+                        <li><a href="#" title="GUINNESS®
+                            THE 1759">GUINNESS®<br>
+                            THE 1759</a></li>
+                    </ul>
+                  </div>
+
+                    <img src="./image/beer01.jpg" alt="main09" class="beer01">
+
+                    <a href="http://starry.dothome.co.kr/guinness/index_sub.html" title="더보기버튼" class="more02"><img src="./image/more_01.png" alt="기네스맥주 서브페이지 이동"></a>
+
+                </article>
+                <!--width:1060 height:405 -->
+            </section>
+
+            <section class="clear"><!--height:560px;-->
+                <h3>제목</h3>
+
+                <article class="cl">
+                    <h3 class="cl_title">GUINNESS CLEAR</h3>
+
+                    <img src="./image/guinnessclear01.jpg" alt="guinnessclear01" class="clear01">
+                    <img src="./image/guinnessclear02.jpg" alt="guinnessclear02" class="clear02">
+                    <img src="./image/guinnessclear03.jpg" alt="guinnessclear03" class="clear03">
+                    <ul class="cl_txt">
+                        <li>MAKE IT A NIGHT YOU’LL REMEMBER </li>
+                        <li>"물로 음료 간격을 두는 이점을 느낄 수 있도록<br> 기네스 클리어를 만들었습니다."<br>– Joseph Glendenning : Master Brewer</li>
+                        <li>배우 성훈과 프리미엄 흑맥주 브랜드 기네스가 함께한<br>
+                            기네스 클리어 캠페인</li>
+                         <li>기네스 글로벌 책임 음주 캠페인인 '기네스 클리어'는<br>
+                                술자리에서 '물'의 중요성을 강조하고,<br>
+                                마지막 잔은 물로 대체하자는 메시지를 담았습니다.</li>
+                        <li>럭셔리한 무드의 첫 번째 영상
+                            <a href="https://youtu.be/8PoG3p_ay1s" title="[광고] 성훈이 마시는 '기네스 클리어'의 정체는?"><img src="./image/youtube_icon_01.png" alt="youtube_cf" class="cf01"></a></li>
+                        <li>캐주얼하고 청량한 분위기인 두번째 영상
+                            <a href="https://youtu.be/Qibehm7H25c" title="[광고] 성훈이 선택한 기네스 클리어’의 정체는?"><img src="./image/youtube_icon_01.png" alt="youtube_cf" class="cf01"></a>
+                        </li>
+                    </ul>
+                    <a href="" title="더보기버튼" class="more03"><img src="./image/more_01.png" alt="기네스클리어 서브페이지 이동"></a>
+                </article>
+                
+                <!--width:1070 height:425 -->
+            </section>
+
+            <section class="recipes"><!--height:475 px;-->
+                <h3>제목</h3>
+
+                <article class="re">
+                    <h3 class="re_title">RECIPES &#x0026; PAIRINGS</h3>
+                    
+                    <h4 class="re_txt">기네스&#x00AE; 찐갈비</h4>
+                    <p class="re_txt01">WITH GUINNES&#x00AE; DRAUGHT</p>
+
+                    <ul class="r01">
+                        <li>- 재료 -<br>
+                            쇠고기 육수 7.5L<br>
+                            토마토 주스 470ml<br>
+                            Guinness® Draft 2캔<br>
+                            깍둑 썰기 한 당근 2개<br>
+                            잘게 썬 셀러리 줄기 4개<br>
+                            다진 양파 2개<br>
+                            신선한 타임 4가지<br>
+                            갈비뼈 12 개 (680g)<br>
+                            카놀라유<br>
+                            맛볼 소금과 후추</li>
+                     </ul>       
+
+                        <p class="re_txt02">준비 시간 45분, 요리 시간 2시간 30분, 2인분</p>
+
+                    <ul class="re_txt03">
+                        <li>오븐을 350 ° F로 예열합니다 .</li>
+                        <li>갈비는 소금과 후추로 넉넉하게 간을합니다.<br>
+                            냄비에 카놀라유를 바르고 갈비를 한꺼번에 굽습니다.<br>
+                            고기가 호박색으로 그을 리면 로스팅 팬으로 옮깁니다.<br>
+                            같은 냄비에 당근, 양파, 셀러리를 5 ~ 8 분 동안 볶은 다음 로스팅 팬으로 옮깁니다<br>
+                            Guinness® Draft 캔 2 개를 추가 하여 중불로 냄비의 유약을 제거합니다<br>
+                            로스팅 팬의 짧은 갈비 위에이 액체를 붓습니다.</li>
+                        <li>로스팅 팬에 쇠고기 육수, 토마토 주스 및 신선한 타임을 넣고 호일로 단단히 덮습니다<br>
+                            예열 된 오븐에 고기를 넣고 2 ~ 2.5 시간 동안 끓입니다<br>
+                            요리 할 때 갈비뼈가 뼈에서 약간 떨어집니다<br>
+                            갈비는 크기가 다르므로 요리 시간이 다를 수 있습니다.</li>
+                        <!-- <li>로스팅 팬에서 갈비뼈를 제거하고 접시에 담아 놓으세요<br>
+                            남은 액체를 걸러 내고 반으로 나눕니다.<br>
+                            액체의 절반을 냄비에 붓고 중간 / 고불로 줄이고 소스를 만들기 위해 줄입니다.</li>
+                        <li>서빙 할 준비가되면 액체의 후반부에 갈비뼈가 부드러워 질 때까지 약 15 분 동안 끓입니다.<br>
+                            짧은 갈비 위에 소스 감소를 숟가락으로 내고 제공하십시오.</li> -->
+                    </ul>
+                    <a href="#" title=""><i class='far fa-plus-square'></i></a>
+
+                    <p class="re_txt04">Food & Drink</p>
+
+                    <img src="./image/recipes_pairings.jpg" alt="recipes" class="recipes01">
+                    <a href="recipes_pairings.html" title="더보기버튼" class="more04"><img src="./image/more_01.png" alt="레시피_페어링 서브페이지 이동"></a>
+                </article>
+                <!--width:1020 height:480 -->
+            </section>
+
+            <!-- 기네스 북 -->
+            <section class="book"><!--height:645px;-->
+                <h3>제목</h3>
+                <article class="bo">
+                    <h3 class="bo_title">GUINNESS&#x00AE; and GUINNESS BOOK</h3>
+
+                    <ul class="bo_img">
+                        <li>
+                            <img src="./image/guinness_book01.png" alt="guinnessbook01" class="book01">
+                            <p>왼쪽에서 오른쪽으로 : 첫 번째 기네스 세계 기록 책인 Sir Hugh Beaver, Ross and Norris McWhirter, Norris McWhirter</p>
+                        </li>
+                            <li>
+                                <img src="./image/guinness_book02.png" alt="guinnessbook02" class="book02">
+                            <p class="book02_txt">왼쪽부터 Norris (1925 ~ 2004)와 Ross McWhirter (1925 ~ 75) <br> [쌍둥이] </p>
+                        </li>
+
+                    </ul>
+
+                        <ul class="bo_con">
+                            <li>기네스는 본래 맥주 및 증류주 회사의 이름이자 이 회사의 창업주인 ‘아서 기네스’의 이름이다.<br>
+                                1886년에 생긴 이 회사는 초기에 양조업에 뛰어들었다가 지금은 다방면에 걸친 사업을 하고 있는 회사이다.</li>
+                            <li>기네스 사가 1955년 8월 27일 처음으로 『기네스북』을 펴냈는데, <br>
+                                이 책은 술집에서의 사소한 내기나 논쟁을 돕기 위해 고안된 심심풀이용 책이었으나, <br>
+                                지금은 기록 갱신의 등록 장으로 세계적인 흥미와 관심의 대상이 되고 있는 세계 기록집이다.</li>
+                        </ul>
+                    
+                    <a href="guinnessbook.html" title="더보기버튼" class="more05"><img src="./image/more_01.png" alt="기네스북안내 페이지 이동"></a>
+                </article>
+                <!--width:1005 height:520-->
+            </section>
+
+    </main>
+
+        <div class="f_line"><!-- 라인 --></div>
+        <!-- 3. 푸터영역-->
+        <footer>
+            <div class="f_inner">
+                <h2 class="f_logo">
+                    <a href="guinness_index.html" title="guinness_index"><img src="./image/footer_guinness_logoh2.svg" alt=" 기네스 하단 로고" width="300" height="70"></a>
+                </h2><!-- 하단로고 가로300 세로70 -->
+                <article class="f_sns">
+                    <h3>제목</h3>
+                    <ul>
+                        <li><a href="facebook_sns.html" title="페이스북"><img src="./image/footer_facebook02.png" alt=" 페이스북sns"></a></li>
+                        <li><a href="instagram_sns.html" title="인스타그램"><img src="./image/footer_instagram03.png" alt="인스타sns"></a></li>
+                        <li><a href="google_sns.html" title="구글"><img src="./image/footer_google04.png" alt="구글sns"></a></li>
+                        <li><a href="twittwer_sns.html" title="트위터"><img src="./image/footer_twitter05.png" alt="트위터sns"></a></li>
+                    </ul>
+                </article>
+
+                <aside>
+                    <a  href="#" title="위로 바로가기">TOP</a>
+                </aside>
+
+                <section class="f_logo0">
+                    <h3>제목</h3>
+                    <ul class=" f_logo01">
+                        <li><a href="https://www.guinness-storehouse.com/en" title="기네스하우스"><img src="./image/footer_guinness_logo1.png" alt="기네스하우스" width="80" height="30"></a></li>
+                        <li><a href="https://www.diageo.com/" title="diageo사이트"><img src="./image/footer_diageo_logo2.png" alt="diageo" width="80" height="20"></a></li>
+                    </ul>
+                </section>
+
+                <address>Conditions of Use｜Privacy and Cookie NoticeUGC Policy｜Accessibility｜Privacy Settings｜Responsible Drinking｜DrinkIQ｜theBar.com｜FAQs｜Contact Us｜<br>
+                    The GUINNESS word and associated logos are trademarks. © Guinness & Co. 2018｜<br>
+                    Please do not share with anyone under the legal purchase age for alcohol.Drink Responsibly.
+                </address><!-- 회사정보 가로 70 세로860 -->
+            </div>
+        </footer>
+    </form>
+    </body>
+</html>

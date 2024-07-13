@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gyeongju-in_join</title>
+        <style>
+            caption{
+                font-weight:bold;
+                font-size:25px;
+                padding:20px;
+            }
+            th{
+                padding-right:10px;
+                text-align:right;
+            }
+            .t01{
+                font-size:13px;
+                line-height:25px;
+            }
+            .a01{
+                text-align:right;
+                font-weight:bold;
+                font-size:11px;
+            }
+            .a02{color:#FF5511;}
+            .a03{width:50px;}
+            .a04{width:200px;}
+            .j01{
+                width:550px;
+                text-align: center;
+                padding:20px;
+            }
+            .j02{
+                color:#ffffff;
+                background-color:#474443;
+                width:120px; height:40px;
+                font-size:15px;
+                font-weight:bold;
+            }
+        </style>
+    </head>
+    <body>
+        <form name="회원가입" method="post" action="#">
+
+            <table class="t01">
+
+                <caption>회원가입</caption>
+
+                <tr>
+                    <td class="a01"><label class="a02">＊</label>필수입력</td>
+                </tr>
+                <tr>
+                    <th>아이디<span class="a02">＊</span></th>
+                    <td><input type="text" maxlength="16" required><small>(영문소문자/숫자 4~16자)</small></td>
+                </tr>
+                <tr>
+                    <th>비밀번호<span class="a02">＊</span></th>
+                    <td><input type="password" maxlength="16" required><small>(영문 대소문자/숫자/특수만자 중 2가지 이상 조합,8자~16자)</small></td>
+                </tr>
+                <tr>
+                    <th>비밀번호 확인<span class="a02">＊</span></th>
+                    <td><input type="password" maxlength="16" required></td>
+                </tr>
+                <tr>
+                    <th>이름<span class="a02">＊</span></th>
+                    <td><input type="text" maxlength="16" required></td>
+                </tr>
+                <tr>
+                    <th>닉네임　</th>
+                    <td><input type="text" maxlength="16"></td>
+                </tr>
+                <tr>
+                    <th>연락처<span class="a02">＊</span></th>
+                    <td><input type="tel" maxlength="4" class="a03" required>-<input type="tel" maxlength="4" class="a03" required>-<input type="tel" maxlength="4" class="a03" required></td>
+                </tr>
+                <tr>
+                    <th>이메일　</th>
+                    <td><input type="tel" maxlength="4"></td>
+                </tr>
+                <tr>
+                    <th>주소<span class="a02">＊</span></th>
+                    <td><input type="tel" maxlength="4" class="a03" required>-<input type="tel" maxlength="4" class="a03" required> <input  type="button" value="우편번호검색"><br>
+                    <input type="tel" maxlength="20" class="a04" required><br> <input type="tel" maxlength="20" class="a04" required></td>
+                </tr>
+
+            </table>
+
+            <p class="j01">
+                <input type="submit" value="가입완료" class="j02">
+            </p>
+
+        </form>
+    </body>
+</html>

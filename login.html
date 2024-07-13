@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Gyeongju-in_login</title>
+        <style>
+            caption{
+                font-weight:bold;
+                font-size:25px;
+                padding:20px;
+            }
+            .t01{
+                width:50px;
+                font-size:15px;
+                line-height:30px;
+                text-align:right;
+            }
+            .c01{
+                width:300px;
+                text-align: center; 
+                font-size: 11px;
+            }
+            .j01{
+                width:300px;
+                text-align: center;
+            }
+            .j02{
+                color:#ffffff;
+                background-color:#474443;
+                width:120px;  height:40px;
+                font-size:15px;
+                font-weight:bold;
+            }
+            .a01{
+                width:300px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <form name="로그인" method="post">
+
+            <table class="a01">
+
+                <caption>LOGIN</caption>
+
+                <tr>
+                    <th class="t01">ID</th>
+                    <td class="t02"><input type="text" maxlength="16"></td>
+                </tr>
+
+                <tr>
+                    <th class="t01">PW</th>
+                    <td class="t02"><input type="text" maxlength="16"></td>
+                </tr>
+
+            </table>
+
+            <p class="c01">
+                <input type="checkbox" id="e01" checked><label for="e01">아이디 저장</label>
+                <input type="checkbox" id="e02" checked><label for="e02">자동로그인</label><br><br>
+                 <a href="#" title="아이디찾기">아이디찾기</a>｜
+                 <a href="#" title="비밀번호찾기">비밀번호 찾기</a>｜
+                 <a href="#" title="회원가입"> 회원가입</a>
+            </p>
+          
+            <p class="j01">
+                <input type="submit" value="로그인" class="j02">
+            </p>
+
+            <p class="a01">
+                <input type="image" src="./image/kakao.jpg" alt="카카오톡으로 로그인" width="150"><br>
+                <input type="image" src="./image/facebook.jpg" alt="페이스북으로 로그인" width="150"><br>
+                <input type="image" src="./image/naver.jpg" alt="네이버로 로그인" width="150"><br>
+                <input type="image" src="./image/google.jpg" alt="구글로 로그인" width="150">
+            </p>
+            
+        </form>
+    </body>
+</html>
